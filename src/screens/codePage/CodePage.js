@@ -14,12 +14,8 @@ const Enter = () => {
     return (
         <View style={styles.mainCard}>
             <View>
-               
-
-
                 <View style={styles.inpuCard}>
                     <Text>Введите код из смс .</Text>
-
                     <View>
                         <Text style={styles.textSecondary}>Номер телефона</Text>
                         <View style={styles.DropdownCard}>
