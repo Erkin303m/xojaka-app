@@ -18,7 +18,7 @@ const Enter = () => {
 
 
                 <View style={styles.inpuCard}>
-                    <Text>Введите код из смс</Text>
+                    <Text>Введите код из смс .</Text>
 
                     <View>
                         <Text style={styles.textSecondary}>Номер телефона</Text>
