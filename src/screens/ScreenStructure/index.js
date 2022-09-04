@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import {View, StatusBar, Text} from 'react-native';
+import { View, StatusBar, Text } from 'react-native';
 import Components from 'components'
 import styles from './styles'
-import {Routines} from 'services/api';
+import { Routines } from 'services/api';
 
-class ScreenStructure extends Component{
+class ScreenStructure extends Component {
     constructor(props) {
         super(props);
     }
@@ -12,12 +12,12 @@ class ScreenStructure extends Component{
 
     }
 
-    render () {
+    render() {
         return (
             <Components.Layout>
-             <Text>
-                                              This is screenStructure !!!
-                                   </Text>
+                <Text>
+                    This is screenStructure !!! hi
+                </Text>
             </Components.Layout>
         )
     }
